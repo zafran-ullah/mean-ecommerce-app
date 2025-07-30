@@ -99,21 +99,21 @@ JWT_SECRET=your_jwt_secret
 
 ```
 ### 🧱 Built With
-Angular
-Node.js
-Express
-MongoDB
-Angular Material
-AWS (planned)
+- Angular
+- Node.js
+- Express
+- MongoDB
+- Angular Material
+- AWS (planned)
 
 ### 🐳 Planned AWS Deployment (DevOps Roadmap)
-Tool	Purpose
-S3 + CloudFront	Host frontend (Angular)
-EC2 / Elastic Beanstalk	Host backend API
-MongoDB Atlas	Managed NoSQL database
-AWS CodePipeline	CI/CD for automated deployment
-Route53 + SSL	Custom domain & HTTPS
-Secrets Manager	Secure storage of API keys & DB creds
+
+- S3 + CloudFront	Host frontend (Angular)
+- EC2 / Elastic Beanstalk	Host backend API
+- MongoDB Atlas	Managed NoSQL database
+- AWS CodePipeline	CI/CD for automated deployment
+- Route53 + SSL	Custom domain & HTTPS
+- Secrets Manager	Secure storage of API keys & DB creds
 
 ### 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first.
