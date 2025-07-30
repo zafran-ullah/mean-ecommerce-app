@@ -74,27 +74,31 @@ mean-ecommerce-app/
 ```bash
 git clone https://github.com/your-username/mean-ecommerce-app.git
 cd mean-ecommerce-app
-
-2. Run the Backend
-
+```
+#### 2. Run the Backend
+```bash
 cd backend
 npm install
 cp .env.example .env     # Add your MONGO_URI and JWT_SECRET
 npm run dev
 
-3. Run the Frontend
-
+```
+#### 3. Run the Frontend
+```bash
 cd frontend
 npm install
 ng serve
 
-###🔐 Environment Variables
+```
+### 🔐 Environment Variables
+```bash
 backend/.env
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/dbname
 JWT_SECRET=your_jwt_secret
 
-###🧱 Built With
+```
+### 🧱 Built With
 Angular
 Node.js
 Express
@@ -102,7 +106,7 @@ MongoDB
 Angular Material
 AWS (planned)
 
-###🐳 Planned AWS Deployment (DevOps Roadmap)
+### 🐳 Planned AWS Deployment (DevOps Roadmap)
 Tool	Purpose
 S3 + CloudFront	Host frontend (Angular)
 EC2 / Elastic Beanstalk	Host backend API
@@ -111,10 +115,10 @@ AWS CodePipeline	CI/CD for automated deployment
 Route53 + SSL	Custom domain & HTTPS
 Secrets Manager	Secure storage of API keys & DB creds
 
-###🤝 Contributing
+### 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first.
 
-###📄 License
+### 📄 License
 MIT
 
 ---
